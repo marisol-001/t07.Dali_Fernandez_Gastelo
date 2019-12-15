@@ -1,5 +1,6 @@
 #INPUT
-msg="abc"
+import os
+msg=os.sys.argv[1]
 for letra in msg:
     print(letra)
 #decodificador
